@@ -2,7 +2,15 @@ doctype html
 link(rel='stylesheet' href='css/style.css')
 
 head
-    title My First Full Stack
+    title My First Full Stack Project
 body
-    h1 Simple TODO APP
-    p TODO: Complete the app!
+    div#firstcell
+        h1 Simple TODO APP
+        p Please enter a TODO list item! 
+        label(for="TODO") TODO Item: 
+        input(type="text", name="TODO")
+        br
+        input(type="submit" value="Add")
+    
+    div#secondcell
+        p My TODO List

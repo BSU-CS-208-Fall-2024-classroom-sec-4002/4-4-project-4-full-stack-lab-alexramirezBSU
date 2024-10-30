@@ -1,3 +1,23 @@
 body{
     background-color: hotpink;
 }
+
+#firstcell {
+    background-color: aqua;
+    border-style: dashed;
+    border-color: gold;
+    border-width: 40px;
+}
+
+#firstcell > h1 {
+    color: brown;
+}
+
+#firstcell > p {
+    background-color: black;
+    color: red;
+}
+
+#secondcell {
+    background-color: greenyellow;
+}
