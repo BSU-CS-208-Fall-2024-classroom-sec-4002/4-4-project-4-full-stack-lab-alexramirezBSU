@@ -3,10 +3,11 @@ body{
 }
 
 #firstcell {
-    background-color: aqua;
+    background-color: darkslategrey;
     border-style: dashed;
     border-color: gold;
     border-width: 40px;
+    padding: 50px;
 }
 
 #firstcell > h1 {
@@ -16,8 +17,66 @@ body{
 #firstcell > p {
     background-color: black;
     color: red;
+    font-size: 25px;
 }
 
 #secondcell {
-    background-color: greenyellow;
+    background-color: darkolivegreen;
+    border-style: dotted;
+    border-width: 40px;
+    border-color: blueviolet;
+    padding: 40px;
+}
+
+#secondcell > h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
+}
+
+#secondcell > h1:hover {
+    color: hotpink;
+}
+
+li {
+    color: purple;
+    padding: 15px;
+    border: 15px;
+    border-color: darkslateblue;
+    border-style: ridge;
+}
+
+li:nth-child(odd) {
+    background-color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+li:nth-child(even) {
+    background-color: brown;
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+#todoLabel {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#delete {
+    position: relative;
+    left: 830px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: cadetblue;
+}
+
+#add {
+    position: relative;
+    left: 1020px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: darkviolet;
 }

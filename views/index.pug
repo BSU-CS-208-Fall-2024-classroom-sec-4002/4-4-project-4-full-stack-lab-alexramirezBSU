@@ -8,16 +8,16 @@ body
         h1 Simple TODO APP
         p Please enter a TODO list item! 
         form(action="/", method="post")
-            label(for="todo") TODO Item: 
+            label#todoLabel(for="todo") TODO Item: 
             input(type="text", name="todo")
             br
-            input(type="submit" value="Add")
+            input#add(type="submit" value="Add")
     
     div#secondcell
-        p My TODO List
+        h1 My TODO List
         ul 
         - for (let i = 0; i < tasks.length; i++)
             li= tasks[i].id + " " + tasks[i].task
                 form(action="/delete", method="post")
                     input(type="hidden", name="id" value=tasks[i].id)
-                    input(type="submit", value="Delete") 
+                    input#delete(type="submit", value="Delete") 
