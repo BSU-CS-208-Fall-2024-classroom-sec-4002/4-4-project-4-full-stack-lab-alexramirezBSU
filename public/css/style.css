@@ -1,5 +1,5 @@
 body{
-    background-color: hotpink;
+    background-color: red;
 }
 
 #firstcell {
@@ -24,7 +24,7 @@ body{
     background-color: darkolivegreen;
     border-style: dotted;
     border-width: 40px;
-    border-color: blueviolet;
+    border-color: darkorange;
     padding: 40px;
 }
 
@@ -35,7 +35,7 @@ body{
 }
 
 #secondcell > h1:hover {
-    color: hotpink;
+    color: red;
 }
 
 li {
